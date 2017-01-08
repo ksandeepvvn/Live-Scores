@@ -1,10 +1,7 @@
-//
-//  AppDelegate.swift
-//  Live Sports Score
-//
 //  Created by Sandeep on 8/1/17.
 //  Copyright © 2017 Sandeep. All rights reserved.
-//
+
+
 
 import UIKit
 

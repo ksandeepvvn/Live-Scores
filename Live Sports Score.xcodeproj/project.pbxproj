@@ -14,6 +14,14 @@
 		0C205B3D1E2272A100013DDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C205B3B1E2272A100013DDC /* LaunchScreen.storyboard */; };
 		0C205B481E2272A100013DDC /* Live_Sports_ScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C205B471E2272A100013DDC /* Live_Sports_ScoreTests.swift */; };
 		0C205B531E2272A100013DDC /* Live_Sports_ScoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C205B521E2272A100013DDC /* Live_Sports_ScoreUITests.swift */; };
+		0C205B681E22735100013DDC /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C205B601E22735100013DDC /* FavoritesTableViewController.swift */; };
+		0C205B691E22735100013DDC /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C205B611E22735100013DDC /* GameTableViewCell.swift */; };
+		0C205B6A1E22735100013DDC /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C205B621E22735100013DDC /* Keys.plist */; };
+		0C205B6B1E22735100013DDC /* MLBSportsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C205B631E22735100013DDC /* MLBSportsData.swift */; };
+		0C205B6C1E22735100013DDC /* NFLSportsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C205B641E22735100013DDC /* NFLSportsData.swift */; };
+		0C205B6D1E22735100013DDC /* TeamSelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C205B651E22735100013DDC /* TeamSelectionTableViewCell.swift */; };
+		0C205B6E1E22735100013DDC /* TeamSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C205B661E22735100013DDC /* TeamSelectionViewController.swift */; };
+		0C205B6F1E22735100013DDC /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C205B671E22735100013DDC /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		0C205B4E1E2272A100013DDC /* Live Sports ScoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Live Sports ScoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C205B521E2272A100013DDC /* Live_Sports_ScoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Live_Sports_ScoreUITests.swift; sourceTree = "<group>"; };
 		0C205B541E2272A100013DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C205B601E22735100013DDC /* FavoritesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewController.swift; sourceTree = "<group>"; };
+		0C205B611E22735100013DDC /* GameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
+		0C205B621E22735100013DDC /* Keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
+		0C205B631E22735100013DDC /* MLBSportsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLBSportsData.swift; sourceTree = "<group>"; };
+		0C205B641E22735100013DDC /* NFLSportsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFLSportsData.swift; sourceTree = "<group>"; };
+		0C205B651E22735100013DDC /* TeamSelectionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamSelectionTableViewCell.swift; sourceTree = "<group>"; };
+		0C205B661E22735100013DDC /* TeamSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamSelectionViewController.swift; sourceTree = "<group>"; };
+		0C205B671E22735100013DDC /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,14 @@
 			children = (
 				0C205B321E2272A000013DDC /* AppDelegate.swift */,
 				0C205B341E2272A000013DDC /* ViewController.swift */,
+				0C205B601E22735100013DDC /* FavoritesTableViewController.swift */,
+				0C205B611E22735100013DDC /* GameTableViewCell.swift */,
+				0C205B621E22735100013DDC /* Keys.plist */,
+				0C205B631E22735100013DDC /* MLBSportsData.swift */,
+				0C205B641E22735100013DDC /* NFLSportsData.swift */,
+				0C205B651E22735100013DDC /* TeamSelectionTableViewCell.swift */,
+				0C205B661E22735100013DDC /* TeamSelectionViewController.swift */,
+				0C205B671E22735100013DDC /* Utilities.swift */,
 				0C205B361E2272A100013DDC /* Main.storyboard */,
 				0C205B391E2272A100013DDC /* Assets.xcassets */,
 				0C205B3B1E2272A100013DDC /* LaunchScreen.storyboard */,
@@ -232,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C205B6A1E22735100013DDC /* Keys.plist in Resources */,
 				0C205B3D1E2272A100013DDC /* LaunchScreen.storyboard in Resources */,
 				0C205B3A1E2272A100013DDC /* Assets.xcassets in Resources */,
 				0C205B381E2272A100013DDC /* Main.storyboard in Resources */,
@@ -259,8 +284,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C205B6E1E22735100013DDC /* TeamSelectionViewController.swift in Sources */,
+				0C205B681E22735100013DDC /* FavoritesTableViewController.swift in Sources */,
+				0C205B6D1E22735100013DDC /* TeamSelectionTableViewCell.swift in Sources */,
+				0C205B6C1E22735100013DDC /* NFLSportsData.swift in Sources */,
 				0C205B351E2272A000013DDC /* ViewController.swift in Sources */,
+				0C205B6B1E22735100013DDC /* MLBSportsData.swift in Sources */,
+				0C205B6F1E22735100013DDC /* Utilities.swift in Sources */,
 				0C205B331E2272A000013DDC /* AppDelegate.swift in Sources */,
+				0C205B691E22735100013DDC /* GameTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
